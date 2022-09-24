@@ -12,12 +12,12 @@ $notes_sum = array_sum($notes);
 $moyenne = $notes_sum / count($notes);
 echo 'La moyenne du tableau "notes" est ' . $moyenne . $dsdl;
 
-// Récupération de valeurs d'un tableau.
+# Récupération de valeurs d'un tableau.
 $eleve = ['Melissa', 'Galvan', [15, 20, 10]];
 echo $eleve[2][1] . $sdl; // 20
 echo $eleve[2][2] . $sdl; // 10
 
-// Récupération de valeurs par clés d'un tableau.
+# Récupération de valeurs par clés d'un tableau.
 $eleve2 = ['prenom' => 'Nala', 'nom' => 'Bola', 'notes' => [10, 20, 10]];
 echo $eleve2['prenom'] . $sdl; // Nala
 echo $eleve2['notes'][1] . $sdl; // 20
@@ -31,7 +31,7 @@ $eleve2['notes'][] = 20; // Ajoute la valeur 20 au tableau "notes" du tableau "e
 $eleve2['classe'] = '6ème B'; // Ajoute la clé "classe" avec la valeur "6ème B". Si pas de clé, l'index sera 0. 
 print_r($eleve2) . $sdl; // Affiche le contenu du tableau "eleve2".
 
-// Un tableau "classe" comportant 2 tableau qui représentent les élèves.
+# Un tableau "classe" comportant 2 tableau qui représentent les élèves.
 $classe = [
     // 1er élève
     [
