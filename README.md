@@ -1,6 +1,6 @@
 # Apprendre le PHP
 
-PHP(= PHP : HYpertext Preprocessor)
+PHP(= PHP : Hypertext Preprocessor)
 
 - Bases du langage
 - Cas concret
