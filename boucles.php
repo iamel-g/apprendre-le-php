@@ -152,12 +152,12 @@ if ($creneau_trouve) {
 echo "\n";
 
 echo "Le magasin sera ouvert de";
-foreach ($creneaux as $k => $creneau) {
-    if ($k > 0) {
+foreach ($creneaux as $key => $creneau) {
+    if ($key > 0) {
         echo ' et de';
     }
     echo " {$creneau[0]}h à {$creneau[1]}h";
-    if ($k > 0) {
+    if ($key > 0) {
         echo ".\n";
     }
 }
